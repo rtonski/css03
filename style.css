@@ -2,7 +2,15 @@ html {
     background-color: #faebd6;
 }
 
-h1  {color: #f00;}
-h1 ~ p {color: #00008f;
-font-size: 1.6em;}
-h1 + p {color: #a42423;}
+h1 {
+    color: #f00;
+}
+
+h1~p {
+    color: #00008f;
+    font-size: 1.6em;
+}
+
+h1+p {
+    color: #a42423;
+}
